@@ -13,7 +13,8 @@
 
 
     <form>
-        <fieldset style="width: 400px; margin-left: 400px; ">
+        <div>
+        <fieldset style="width: 400px; margin-left: 400px; border-style:solid; border-radius:20px; border-color:cadetblue">
 
             <div class="form-group">
                 <label for="exampleInputEmail1">Endereço de email</label><br />
@@ -30,6 +31,7 @@
 
             <button type="submit" class="btn btn-primary">Conectar</button>
         </fieldset>
+        </div>
         @section Scripts{ @Scripts.Render("~/bundles/jqueryval")}
     </form>
 
