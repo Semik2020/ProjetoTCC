@@ -139,10 +139,13 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\1-Salmon-Sashimi.jpg" />
     <Content Include="Models\receita-yakissoba-frango.jpg" />
+    <Content Include="Models\robata-de-carne-com-queijo.jpg" />
     <Content Include="Models\Sushi1.jpg" />
     <Content Include="Models\Sushi2.jpg" />
     <Content Include="Models\yakisoba-carne.jpg" />
+    <Content Include="Models\YAKSOBAdecarne2.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.js" />
