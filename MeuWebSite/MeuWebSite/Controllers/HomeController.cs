@@ -26,5 +26,10 @@ namespace MeuWebSite.Controllers
 
             return View();
         }
+
+        public ActionResult TelaAdm()
+        {
+            return View();
+        }
     }
 }
