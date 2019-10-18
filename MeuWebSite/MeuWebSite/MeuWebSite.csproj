@@ -122,6 +122,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\CadastroController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -212,6 +213,10 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Home\TelaAdm.cshtml" />
+    <Content Include="Views\Cadastro\Produto.cshtml" />
+    <Content Include="Views\Cadastro\Fornecedor.cshtml" />
+    <Content Include="Views\Cadastro\Estoque.cshtml" />
+    <Content Include="Views\Cadastro\Cardapio.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

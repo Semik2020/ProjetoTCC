@@ -33,7 +33,7 @@
                     <a class="nav-link" href="#">Empresa</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
+                    <a class="nav-link" href="#">Cardápio</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Contato</a>
@@ -54,6 +54,20 @@
                     <form class="form-inline" action="/action_page.php" style="margin-left: 800px; margin-top:-35px; ">
                         @Html.ActionLink("Login", "TelaLogin", "Home", new { id = 3 }, new { @class = "btn btn-outline-warning" })
                     </form>
+
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardropcadastro" data-toggle="dropdown">
+                        Cadastros
+                    </a>
+                    <div class="dropdown-menu">
+                        @Html.ActionLink("Produto", "Produto", "Cadastro")
+                        @Html.ActionLink("Fornecedor", "Fornecedor", "Cadastro")
+                        @Html.ActionLink("Estoque", "Estoque", "Cadastro")
+                        @Html.ActionLink("Cardápio", "Cardapio", "Cadastro")
+                    </div>
+
 
                 </li>
             </ul>
