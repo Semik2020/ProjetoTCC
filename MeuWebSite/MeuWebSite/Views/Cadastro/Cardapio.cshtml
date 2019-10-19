@@ -11,7 +11,25 @@
     <title>Cardapio</title>
 </head>
 <body>
-    <div> 
-    </div>
+    <!--cadastro vai ter nome, preço, descrição-->
+    <form>
+        <div class="form-group">
+            <label for="nomePrato">Nome do Prato</label><br />
+            <input type="text" />
+
+        </div>
+
+        <div class="form-group">
+            <label for="descPrato">Descrição</label><br />
+            <input type="text" />
+        </div>
+
+        <div class="form-group">
+            <label for="precoPrato">Preço unitário</label><br />
+            <input type="text" />
+        </div>
+
+        @Html.ActionLink("Registrar", "TelaAdm", "Home", new { id = 4 }, new { @class = "btn btn-outline-warning" })
+    </form>
 </body>
 </html>
